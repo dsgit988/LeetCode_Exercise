@@ -4,7 +4,7 @@ import java.util.List;
 
 public class FindAllAnagramsinaString438 {
     public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> result = new ArrayList<>();
+        List<Integer> result =new ArrayList<>();
 
         int length = p.length();
 
