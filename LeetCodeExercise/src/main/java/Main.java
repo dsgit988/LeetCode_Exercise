@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ReshapetheMatrix r = new ReshapetheMatrix();
-        int [][] mat = new int[][]{{1,2},{3,4}};
+        TopKFrequentWords r = new TopKFrequentWords();
+        String[] s = new String[]{"i","love","leetcode","i","love","coding"};
 
-        System.out.println(Arrays.deepToString(r.matrixReshape(mat, 2,4)));
+        r.topKFrequent(s,2);
     }
 }
