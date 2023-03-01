@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        FirstUniqueCharacterinaString r = new FirstUniqueCharacterinaString();
-        String s = "dddccdbba";
+        HappyNumber r = new HappyNumber();
 
-        System.out.println(r.firstUniqChar(s));
+
+        System.out.println(r.isHappy(2));
     }
 }
