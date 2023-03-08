@@ -2,9 +2,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ValidParentheses r = new ValidParentheses();
-
-
-        r.isValid("()[]{}");
+        String s = "Let's take LeetCode contest";
+        ReverseWordsinaStringIII r = new ReverseWordsinaStringIII();
+        System.out.println(r.reverseWords(s));
     }
 }
