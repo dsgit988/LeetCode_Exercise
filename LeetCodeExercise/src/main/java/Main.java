@@ -6,8 +6,8 @@ public class Main {
 //        ReverseWordsinaStringIII r = new ReverseWordsinaStringIII();
 //        System.out.println(r.reverseWords(s));
 
-        MergeIntervals m = new MergeIntervals();
-        int[][] intervals = new int[][]{{1,3},{2,6},{8,10},{15,18}};
-        m.merge(intervals);
+        MaxConsecutiveOnes m = new MaxConsecutiveOnes();
+        int[] ar = new int[]{4,5,6,7,0,1,2};
+        m.findMaxConsecutiveOnes(ar);
     }
 }
