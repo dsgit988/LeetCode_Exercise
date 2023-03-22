@@ -9,5 +9,6 @@ public class Main {
         MaxConsecutiveOnes m = new MaxConsecutiveOnes();
         int[] ar = new int[]{4,5,6,7,0,1,2};
         m.findMaxConsecutiveOnes(ar);
+
     }
 }
