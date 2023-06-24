@@ -1,28 +1,15 @@
 public class MoveZeroes {
     public void moveZeroes(int[] nums) {
-        int k = 0;
-        int q = 0;
-        for (int i = 0; i < nums.length; i++){
-            if (nums[i] == 0){
-                k = i;
-                q = i + 1;
-                break;
+        int snowBallSize = 0;
+        for (int i=0;i<nums.length;i++){
+            if (nums[i]==0){
+                snowBallSize++;
             }
-
-        }
-        if (!(k == 0 && q == 0)) {
-            while (q < nums.length) {
-                if (nums[q] != 0) {
-                    nums[k] = nums[q];
-                    nums[q] = 0;
-                    k++;
-                }
-                q++;
+            else if (snowBallSize > 0) {
+                int t = nums[i];
+                nums[i]=0;
+                nums[i-snowBallSize]=t;
             }
         }
-
-
-
-
     }
 }
